@@ -1,5 +1,10 @@
 @charset "utf-8";
-    
+ 
+html, body{
+    width : 100%;
+    height : 100%;
+}
+
 body{
     font-family : 돋움, Dotum, sans-serif;
     
@@ -10,12 +15,27 @@ body{
 }
 
 h1{
-    color :darkorange;
+    color :crimson;
 }
 
-/*
-.button{
-    padding : 1em 1.5em;
+.Sup{
+    font-size : 50px;
 }
 
-*/
+#Wrap{
+    width : 700px;
+    position : relative;
+    left : 50%;
+    margin-left : -350px;
+}
+
+#PageName, #Quotation{
+    margin-left : 150px;
+}
+
+#Banner{
+    width : 700px;
+    height : 150px;
+    background-color : #fff;
+    border : 1px solid #000;
+}
