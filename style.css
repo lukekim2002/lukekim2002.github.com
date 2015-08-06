@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+/* font for Sup*/
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+/* font for Quo*/
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
  
 html, body{
     width : 100%;
@@ -10,32 +15,55 @@ body{
     
     line-height : 1.5;
     
-    background-image : url('./TotoroBg.jpg');
+    background : url('./JustDoIt.png') no-repeat;
     background-size : cover;
+    
+    margin-top : 100px;
 }
 
 h1{
-    color :crimson;
+    color :darkorange;
+    font-size : 50px;
+    letter-spacing : 1px;
+    word-spacing : 1px;
 }
 
 .Sup{
+    color : crimson;
     font-size : 50px;
+    font-family : 'Indie Flower', cursive;
+    margin-left : 175px;
+    margin-top : 60px;
+}
+
+.Quo{
+    font-family : 'Shadows Into Light', cursive;
+    font-size : 35px;
+    letter-spacing : 10px;
 }
 
 #Wrap{
-    width : 700px;
+    width : 800px;
     position : relative;
     left : 50%;
-    margin-left : -350px;
+    margin-left : -400px;
+    /*margin-top : 200px;*/
+    padding : 20px;
+    
+    background-color : white;
+   
 }
 
-#PageName, #Quotation{
+#PageName{
+    margin-left : 50px;
+}
+
+#Quotation{
     margin-left : 150px;
 }
 
 #Banner{
-    width : 700px;
-    height : 150px;
-    background-color : #fff;
-    border : 1px solid #000;
+    width : 800px;
+    height : 100px;
+    
 }
