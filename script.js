@@ -1,3 +1,1 @@
-function abc(){
-    alert("Hello World!");
-}
+$('#blog').click(function(e){ e.preventDefault(); window.open(this.href); });
