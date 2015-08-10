@@ -30,7 +30,7 @@ h1{
 
 .Sup{
     color : crimson;
-    font-size : 50px;
+    font-size : 55px;
     font-family : 'Indie Flower', cursive;
     margin-left : 175px;
     margin-top : 60px;
@@ -40,8 +40,9 @@ h1{
 
 .Quo{
     font-family : 'Shadows Into Light', cursive;
-    font-size : 35px;
+    font-size : 25px;
     letter-spacing : 10px;
+    margin-left : 25px;
 }
 
 #Wrap{
@@ -49,7 +50,7 @@ h1{
     position : relative;
     left : 50%;
     margin-left : -400px;
-    /*margin-top : 200px;*/
+    margin-top : 150px;
     padding : 20px;
     
     border : 1px solid #000;
